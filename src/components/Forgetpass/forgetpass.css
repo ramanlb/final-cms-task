@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pop-up-forgetpass{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* color: red; */
+    z-index: 10;
+    background-color: #00000070;
+}
+.parent-box{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    /* box-shadow: 1px 1px 10px 1px #00000020; */
+}
+
+.child-box{
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+.closebtn{
+    position: absolute;
+    top: 8px;
+    right: 12px;
+}
+/* .lockup{
+    position: absolute;
+    top: 18px;
+    left: 115px;
+} */
+.lockup {
+    /* position: absolute;
+    top: 18px;
+    left: 87px; */
+    position: relative;
+    top: -78px;
+    width: 57px;
+    left: 123px;
+}
+.Ellipsetwo{
+    position: absolute;
+    top: 0;
+    left: 91px;
+}
+.Ellipsethree{
+    position: absolute;
+    top: -27px;
+    left: 123px;
+}
+.Ellipsefour{
+    position: absolute;
+    left: 82px;
+    bottom: -11px;
+}
+.child-box{
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+.forgotpsd{
+    font-weight: 800;
+    font-size: 30px;
+}
+.emailerror{
+    font-size: 12px;
+    color: red;
+}
+.enterpara{
+    font-size: 10px;
+}
+.mailspace{
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #d1d0d0;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    /* letter-spacing: 1px; */
+    color: #5C5C5C;
+}
+
+.maincontent .resetbtn{
+    font-size: 15px;
+    font-size: 700;
+    background-color: #2196F3;
+    color: #EEEEEE;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+    .child-box{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 20px !important;
+        padding: 15px !important;
+    }
+    .mainbox{
+        padding-top: 28px !important;
+    } 
+    .Ellipsetwo{
+        position: absolute;
+        top: 0px;
+        left: 87px;
+    }
+    .Ellipsethree{
+        position: absolute;
+        top: -32px;
+        left: 73px;
+    }
+    .Ellipsefour{
+        position: absolute;
+        left: 56px;
+        bottom: -11px;
+    }
+    .forgotpsd {
+        font-weight: 800;
+        font-size: 20px;
+    }
+    .resetbtn{
+        margin-top: 0 !important;
+    }
+    
+}
+
+@media only screen and (max-width:425px){
+    .mainbox{
+        padding: 10px !important;
+    }
+    
+    .Ellipsetwo {
+        position: absolute;
+        top: 0px;
+        left: 90px;
+    }
+    .Ellipsethree{
+        position: absolute;
+        top: -19px;
+        left: 73px;
+    }
+    .Ellipse4, .Ellipse5{
+        width: 63px;
+    }
+    .Ellipsetwo{
+        position: absolute;
+        top: 2px;
+        left: 113px;
+    }
+    .Ellipsethree {
+        position: absolute;
+        top: -19px;
+        left: 77px;
+    }
+    .Ellipsefour {
+        position: absolute;
+        left: 74px;
+        bottom: -15px;
+    }
+    .lockup {
+        position: relative;
+        top: -54px;
+        width: 45px;
+        left: 125px;
+    }
+    
+}
+@media only screen and (max-width: 375px){
+    .lockup {
+        position: relative;
+        top: -54px;
+        width: 45px;
+        left: 115px;
+    }
+    .Ellipsetwo {
+        position: absolute;
+        top: 2px;
+        left: 105px;
+    }
+}
+    
+
+@media only screen and (max-width:320px){
+    .mainbox{
+        padding: 10px !important;
+    }
+    
+    .Ellipsetwo {
+        position: absolute;
+        top: 0px;
+        left: 77px;
+        width: 20px;
+    }
+    .Ellipsethree{
+        position: absolute;
+        top: -19px;
+        left: 73px;
+    }
+    
+    .lockup {
+        position: relative;
+        top: -52px;
+        width: 43px;
+        left: 92px;
+    }
+    .Ellipse4, .Ellipse5{
+        width: 63px;
+    }
+    /* .Ellipsetwo{
+        position: absolute;
+    top: 2px;
+    left: 81px; 
+    }*/
+    .Ellipsethree {
+        position: absolute;
+        top: -16px;
+        left: 77px;
+    }
+    .Ellipsefour {
+        position: absolute;
+        left: 74px;
+        bottom: -15px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

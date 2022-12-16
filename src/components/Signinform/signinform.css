@@ -1,0 +1,294 @@
+*{
+    font-family: 'Poppins', sans-serif;;
+}
+.signinrow{
+    height: 100vh;
+}
+
+/* .signinrow {
+    height: 100vh;
+} */
+.maininteract{
+    background-color: #2196F3;
+}
+.lblogo{
+    max-width: 30%;
+    margin-top: 20px;
+    background-color: white;
+}
+/* .singinform-hiden{
+    overflow: hidden;
+  
+} */
+
+.interactdes{
+   display: block;
+    margin: auto;
+    margin-top: 30%;
+}
+
+.interactdes-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 0 px !important;
+    padding-right: 0 !important;
+}
+
+.interactdes-text{
+    font-size: 18px;
+    font-weight: 300;
+   
+    z-index: 5; 
+}
+
+.account-btn{
+    color: #0078D7;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    z-index: 5;
+}
+.signincol{
+    max-width: 100%;
+    margin-top: 30%;
+}
+.signintext{
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+}
+.errorocure{
+    font-size: 11px;
+    color: red;
+}
+.mailspace{
+   font-size: 14px;
+   font-weight: 400;
+   border: 2px solid #d1d0d0;
+   border-top-style: none;
+   border-right-style: none;
+   border-left-style: none;
+   letter-spacing: 1px;
+   color: #717B84;
+}
+.psdspace{
+    font-size: 14px;
+   font-weight: 400;
+   border: 2px solid #d1d0d0;
+   border-top-style: none;
+   border-right-style: none;
+   border-left-style: none;
+   letter-spacing: 1px;
+   color: #717B84;
+}
+.psddiv{
+    position: relative;
+}
+.eyepassword{
+    position: absolute;
+    right: 0;
+}
+
+.createbtn button{
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #2196F3;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.nowup{
+    color: #2196F3;
+}
+
+input:focus{
+    outline: none;
+}
+
+.termtext{
+    font-size: 16px;
+    color: #717B84; 
+}
+
+.forgetdata{
+    font-size: 15px;
+}
+.ordevide{
+    font-size: 18px;
+    font-weight: 700;
+    color: #717B84;
+}
+.ellipseimage1{
+    position: absolute;
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 18vh;
+    bottom: 0;
+    left: 0;
+
+}
+.ellipseimage2{
+    position: absolute;
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 20vh;
+    top: 0;
+    right: 0;
+}
+
+.google{
+    font-size: 12px;
+}
+
+.hubspot{
+    font-size: 12px;
+}
+.hubspot img{
+    max-width: 15%;
+    margin-right: 5px;
+}
+.google img{
+    max-width: 15%;
+    margin-right: 5px;
+}
+
+.forgetdata a:hover{
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+    .interactdes{
+        margin: 0px !important;
+    }
+    .interactdes-title {
+        font-size: 30px !important; 
+        margin-top: 20% !important;
+        font-weight: 700;
+        padding: 0 !important;
+    } 
+    .interactdes-text{
+        font-size: 12px;
+    }
+    .signincol {
+        margin-top: 15%;
+    }
+    .ordevide{
+        margin-bottom: 0 !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .interactdes{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        text-align: center;
+        margin-left: 0 !important;
+    }
+
+    .imgcenter{
+        text-align: center;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .logoimg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* max-width: 30%; */
+        margin-top: 0px !important;
+        /*background-color: white; */
+        margin-left: 0 !important;
+    }
+
+    .ellipseimage1{
+        position: absolute; 
+        z-index: 1;
+    }
+    .ellipseimage2{
+        position: absolute; 
+        z-index: -10;
+    }
+    .interactdes-text{
+        position: relative;
+        z-index: 5;
+    }
+    .account-btn{
+        position: relative;
+    }
+    .interactdes-title{
+        font-size: 35px;
+    }
+    .g-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3px;
+    }
+
+    .h-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4px;
+    }
+    .signincol{
+        padding: 25px !important;
+        margin-top: 20% !important;
+    }
+    .g-section{
+        margin-bottom: 15px;
+    }
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .signincol{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .interactdes{
+        text-align: center !important;
+        /* margin: 30px !important; */
+        margin-top: 51px !important;
+        margin-bottom: 50px !important;
+    }
+    .account-btn{
+        position: relative;
+    }
+    .signincol{
+        width: 100%;
+    }
+    .termtext{
+        font-size: 11px;
+    }
+    .forgetdata{
+        font-size: 13px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .termsin{
+        display: flex;
+    }
+    .forgetdata .forget{
+        text-align: center;
+
+    }
+    .interactdes-title{
+        font-size: 30px;
+    }
+    .interactdes-text{
+        font-size: 12px;
+    }
+    
+    .imgcenter{
+        text-align: center;
+    }
+
+    .termtext{
+        margin-bottom: 0 !important;
+    }
+}
+

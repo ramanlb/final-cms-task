@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navheader{
+    height: 10vh !important;
+    display: block;
+}

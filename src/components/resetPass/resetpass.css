@@ -1,0 +1,153 @@
+.parent-box {
+    position: absolute;
+    display: flex;
+    /* background-color: #E5E5E5 !important; */
+    /* background-color: #2195f38e; */
+    /* background: radial-gradient(circle at 50% 50%,rgb(0, 229, 255), rgba(0, 251, 255, 0)); */
+    background: #00000070;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+}
+
+.child-box {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.subChild-box{
+    padding: 0px 4rem;
+}
+
+.ellipse{
+    width: 15%;
+}
+
+.childEllipse {
+    position: absolute;
+    top: 0;
+    right: 1%;
+    width: 100%;
+}
+
+.childEllipseImg{
+    width: 15%;
+}
+
+.lock {
+    position: absolute;
+    /* top: 40%; */
+    top: 20%;
+    right: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+.mailImg{
+    width: 11%;
+}
+
+.outlineImg{
+    width: 4%;
+}
+
+.fillImg{
+    width: 3%;
+}
+
+.outline {
+    position: absolute;
+    top: -15px;
+    right: 13%;
+    width: 100%;
+}
+
+.fill {
+    position: absolute;
+    bottom: -20%;
+    width: 100%;
+    right: 11%;
+}
+
+.closeButton{
+    border: none;
+    background-color: white;
+}
+
+.closeBtn{
+    position: absolute;
+    right: 6%;
+    top: 6%;
+}
+
+.headtext {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+}
+
+.subhead {
+    color: #717B84;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 120%;
+}
+
+.resend-btn {
+    background-color: #2196F3;
+    color: white;
+    font-size: 13px;
+    width: 100%;
+}
+
+.timer {
+    color: #717B84;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 136.5%;
+}
+
+
+@media screen and (max-width:768px) {
+    .child-box {
+        padding: 0rem;
+        margin: 0px 8px;
+    }
+
+    .subChild-box{
+        padding: 0px;
+    }
+
+    .headtext {
+        font-size: 20px;
+    }
+    
+    .subhead {
+        font-size: 10px;
+    }
+
+    .timer {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .lock {
+        top: 12%;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .lock {
+        top: 8%;
+    }
+}
